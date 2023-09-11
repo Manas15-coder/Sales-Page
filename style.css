@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kumbh+Sans:wght@700&family=Lora:ital,wght@0,400;0,600;0,700;1,600&family=Montserrat:ital,wght@0,600;0,700;0,800;1,600;1,700&family=News+Cycle:wght@700&family=Noticia+Text:ital,wght@1,700&family=Nunito+Sans:wght@300;400&family=Open+Sans:ital,wght@0,300;0,500;0,700;1,700&family=Patrick+Hand&family=Play:wght@400;700&family=Playfair+Display:wght@500;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rampart+One&family=Roboto+Mono:wght@400;500;600;700&family=Roboto+Slab:wght@300&family=Roboto:wght@100;700&family=Sora:wght@500;600&family=Source+Code+Pro:wght@500;600;700&family=Teko:wght@600&family=Urbanist:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+    color: #333;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 4s ease-in;
+}
+
+#banner {
+    padding: 20px 40px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.807), rgba(7, 37, 101, 0.388)),
+        url('./assets/Sellerkin_mockup_1.png');
+    background-position: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 120vh;
+}
+
+#banner h5 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+#banner h4 {
+    font-weight: bold;
+    margin-top: 10%;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner-header {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.header-btn {
+    padding: 10px 10px;
+    background-color: #011955;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-btn:hover {
+    border: 2px solid #011955;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+}
+
+.btn.btn-primary {
+    padding: 20px 20px;
+    background-color: #011955;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+/*video*/
+.video {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.807), rgba(7, 37, 101, 0.388));
+    position: relative;
+    width: 100%;
+}
+
+div.laptop-wrapper {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+    width: 100%;
+}
+
+div.laptop-wrapper iframe {
+    box-sizing: border-box;
+    background: url('https://i.stack.imgur.com/zZNgk.png') center center no-repeat;
+    background-size: contain;
+    padding: 11.9% 15.5% 14.8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*features*/
+#features {
+    margin-top: 25%;
+    padding: 40px 0px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.807), rgba(0, 30, 94, 0.954)), url('./assets/2593042.webp');
+    background-position: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#features p {
+    margin: auto 20%;
+    padding: 20px 0;
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/*scale*/
+#scale {
+    padding: 80px 0;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.807), rgba(0, 30, 94, 0.954)), url('./assets/scale.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#scale p {
+    margin: 2rem 0;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+#scale h3 {
+    margin: 2rem 0;
+    border: 2px dashed #FFF01F;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#scale h3:hover {
+    border: 2px dashed #ffff;
+    color: #FFF01F;
+}
+
+/*content*/
+#content {
+    padding: 20px 0px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.839), rgba(0, 30, 94, 0.655)), url('./assets/iStock-1094465844-funding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+}
+
+#content p {
+    padding: 10px 0;
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+#content .founder {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-content {
+    margin-top: 2%;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.839), rgba(0, 30, 94, 0.655)), url('./assets/iStock-1094465844-funding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.winning {
+    margin-top: 2%;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.839), rgba(0, 30, 94, 0.655)), url('./assets/winning.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.winning img.trophy {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.solution {
+    margin-top: 2%;
+    padding: 20px 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.839), rgba(0, 30, 94, 0.655)), url('./assets/solution.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    border-radius: 15px;
+}
